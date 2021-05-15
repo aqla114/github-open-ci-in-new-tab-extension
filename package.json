@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "http": "^0.0.1-security"
+  },
+  "scripts": {
+    "bundle": "cp ./src/content.js ./target/src/content.js && cp manifest.json ./target/ && zip target.zip target"
   }
 }
