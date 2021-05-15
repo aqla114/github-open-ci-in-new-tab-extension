@@ -12,6 +12,6 @@
     "http": "^0.0.1-security"
   },
   "scripts": {
-    "bundle": "cp ./src/content.js ./target/src/content.js && cp manifest.json ./target/ && zip target.zip target"
+    "bundle": "cp ./src/content.js ./target/src/content.js && cp manifest.json ./target/ && zip -r target.zip target/"
   }
 }
