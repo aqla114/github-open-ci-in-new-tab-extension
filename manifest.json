@@ -1,0 +1,12 @@
+{
+    "name": "Github Open CI In New Tab",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "In the Pull Requests pages of Github, the links which link to the detail of `checks` open in the new tab.",
+    "content_scripts": [{
+      "matches": ["https://github.com/*/*/pull/*"],
+      "js": [
+        "./src/content.js"
+      ]
+    }]
+}
