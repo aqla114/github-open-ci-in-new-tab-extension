@@ -12,6 +12,8 @@
     "http": "^0.0.1-security"
   },
   "scripts": {
+    "build": "yarn tsc",
+    "watch": "yarn tsc -w",
     "bundle": "cp ./src/content.js ./target/src/content.js && cp manifest.json ./target/ && zip -r target.zip target/"
   }
 }
